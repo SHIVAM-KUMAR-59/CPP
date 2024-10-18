@@ -20,8 +20,8 @@ int main() {
         cin >> arr[i];  // Store each character
     }
 
-    // Create a hash array to store frequency of characters (a-z)
-    char *frequency = (char *)malloc(26 * sizeof(char));
+    // Create a hash array to store frequency of characters (0-255)
+    int *frequency = (int *)malloc(256 * sizeof(int));
     if (frequency == nullptr) {  // Check for successful memory allocation
         cerr << "Memory allocation failed!" << endl;
         free(arr);  // Free previously allocated memory before exiting
@@ -29,40 +29,33 @@ int main() {
     }
 
     // Initialize the frequency array to zero
-    for (int i = 0; i < 26; i++) {
+    for (int i = 0; i < 256; i++) {
         frequency[i] = 0;
     }
 
     // Count the frequency of each character
     for (int i = 0; i < n; i++) {
-        // Assuming input characters are lowercase letters
-        frequency[arr[i] - 'a']++;  // Increment frequency for each character
+        frequency[(unsigned char)arr[i]]++;  // Increment frequency for each character
     }
 
     // Query loop for user to find character frequencies
     while (true) {
         char a;  // Character to query
-        cout << "Enter a character whose count you want to know or enter -1 to exit: ";
+        cout << "Enter a character whose count you want to know or enter 'exit' to exit: ";
         cin >> a;
 
-        if (a == -1) {
+        if (a == 'exit') {
             cout << "Exiting.." << endl;
-            break;  // Exit the loop if user inputs -1
+            break;  // Exit the loop if user inputs "exit"
         }
 
-        // Check if the character is valid (a-z)
-        if (a < 'a' || a > 'z') {
-            cout << "Please enter a valid lowercase character (a-z)!" << endl;
-            continue;  // Prompt again if input is invalid
+        // Check if the character was found and print frequency
+        if(frequency[a]){
+            cout << "The count of '" << a << "' is: " << frequency[(unsigned char)a] << endl;
+        }else{
+            cout << "The entered character '" << a << "' was not found." << endl;
         }
-
-        // Check if the character was found
-        if (frequency[a - 'a'] == 0) {
-            cout << "Character not found!" << endl;
-        } else if (frequency[a - 'a'] == 1) {
-            // Print the frequency of the character
-            cout << "The count of '" << a << "' is: " << (int)frequency[a - 'a'] << endl;
-        }
+        
     }
 
     // Free allocated memory
