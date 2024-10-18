@@ -12,7 +12,7 @@ int main() {
     int *arr = (int *)malloc(n * sizeof(int));
 
     for(int i = 0; i < n; i++){
-        cout << "Enter the  element in ascending order " << i+1 << ": ";
+        cout << "Enter the  element in binary format " << i+1 << ": ";
         cin >> arr[i];
     }
 
