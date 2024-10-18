@@ -17,25 +17,16 @@ int main() {
     }
 
     int count = 0;
-    int newCount = 0;
-    int zeroCount = 0;
+    int max = 0;
     for(int i = 0; i < n; i++){
         if(arr[i] == 1){
             count++;
+            max = max > count ? max : count;
         }else{
-            if(zeroCount == 0){
-                zeroCount++;
-                newCount = count;
-                count = 0;
-            }else{
-                if(count > newCount){
-                    newCount = count;
-                }
-                count = 0;
-            }
+            count = 0;
         }
     }
 
-    cout <<  "Maximum number of consecutive 1's: " << (count > newCount ? count : newCount) << endl;
+    cout <<  "Maximum number of consecutive 1's: " << max << endl;
     return 0;
 }
