@@ -21,12 +21,54 @@ int main() {
     cout << "Enter the number of elements to enter: ";
     cin >> n;
 
-    int *prices = (int *)malloc(n * sizeof(int));
+    int *arr = (int *)malloc(n * sizeof(int));
 
     for(int i = 0; i < n; i++){
         cout << "Enter the  elements: " << i+1 << ": ";
-        cin >> prices[i];
+        cin >> arr[i];
     }
-    
+
+    /*
+    1. Find the breakpoint from where there is a number on right of the breakpoint which is larger.
+    2. Find the smallest greater number in the right side
+    3. Swap the breakpoint with the smallest greater number
+    4. Reverse the right side of the breakpoint
+    5. If no breakpoint is found, reverse the array
+    */ 
+   int index = -1;
+   for(int i = n - 2; i >= 0; i--){
+    // Find breakpoint
+    if(arr[i] < arr[i + 1]){
+        index = i;
+        break;
+    }
+   }
+
+    // Index = -1 
+   if(index == -1){
+    // Reverse the array
+    for(int i = 0; i < n / 2; i++){
+        int temp = arr[i];
+        arr[i] = arr[n - i - 1];
+        arr[n - i - 1] = temp;
+    }
+   }else{
+    // Find the smallest greater number
+    for(int i = n - 1; i >= index; i--){
+        if(arr[i] > arr[index]){
+            int temp = arr[i];
+            arr[i] = arr[index + 1];
+            arr[index + 1] = temp;
+            break;
+        }
+    }
+    // Reverse the right side of the breakpoint
+    for(int i = index + 1; i <  n / 2 + index; i++){
+        int temp = arr[i];
+        arr[i] = arr[n - i + index];
+        arr[n - i + index] = temp;
+    }
+   }
+
     return 0;
 }
