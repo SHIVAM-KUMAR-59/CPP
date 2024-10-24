@@ -26,7 +26,7 @@ To get started with the code in this repository, follow these steps:
 2. **Navigate to the repository**:
 
    ```bash
-   cd cpp
+   cd CPP
    ```
 
 3. **Compile and run a C++ file**: Make sure you have a C++ compiler installed (like g++). You can compile a file using:
@@ -38,7 +38,7 @@ To get started with the code in this repository, follow these steps:
    Then, run the output file:
 
    ```bash
-   ./output
+   ./out
    ```
 
 ## Contributing ✨
