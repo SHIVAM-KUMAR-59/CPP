@@ -8,30 +8,45 @@ Time Complexity:  O(n^2)
 #include <iostream>
 using namespace std;
 
-int main() {
-
-    int n;
-    cout << "Enter the number of elements: ";
-    cin >> n;
-    int arr[n];
-    cout << "Enter the elements: ";
-    for(int i = 0; i < n; i++) {
-        cin >> arr[i];
-    }
-
-    for(int i = n - 1; i >= 0; i--){
-        for(int j = 0; j <= i - 1; j++){
-            if(arr[j] > arr[j + 1]){
+// Function to perform Bubble Sort
+void bubbleSort(int arr[], int n) {
+    for (int i = n - 1; i >= 0; i--) {
+        for (int j = 0; j <= i - 1; j++) {
+            if (arr[j] > arr[j + 1]) {
+                // Swap arr[j] and arr[j + 1]
                 int temp = arr[j];
                 arr[j] = arr[j + 1];
                 arr[j + 1] = temp;
             }
         }
     }
+}
 
-    cout << "The sorted array is: ";
-    for(int i = 0; i < n; i++){
+// Function to print the array
+void printArray(int arr[], int n) {
+    for (int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
+    cout << endl;
+}
+
+int main() {
+    int n;
+    cout << "Enter the number of elements: ";
+    cin >> n;
+
+    int arr[n];
+    cout << "Enter the elements: ";
+    for (int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
+
+    // Call the bubbleSort function
+    bubbleSort(arr, n);
+
+    // Print the sorted array
+    cout << "The sorted array is: ";
+    printArray(arr, n);
+
     return 0;
 }
