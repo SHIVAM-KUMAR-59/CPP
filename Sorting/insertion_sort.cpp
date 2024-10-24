@@ -1,10 +1,9 @@
 
 /*
-Bubble Sort: 
-Find out the maximum element in the array and push it to the last by adjacent swapping and then do the same for the next index and so on
+Insertion Sort: 
+Iterate through the array and for every element put it at its correct position
 Time Complexity:  O(n^2)
 */
-
 #include <iostream>
 using namespace std;
 
@@ -19,13 +18,13 @@ int main() {
         cin >> arr[i];
     }
 
-    for(int i = n - 1; i >= 0; i--){
-        for(int j = 0; j <= i - 1; j++){
-            if(arr[j] > arr[j + 1]){
-                int temp = arr[j];
-                arr[j] = arr[j + 1];
-                arr[j + 1] = temp;
-            }
+    for(int i = 0; i < n; i++){
+        int j = i;
+        while(j >= 0 && arr[j - 1] > arr[j]){
+            int temp = arr[j];
+            arr[j] = arr[j - 1];
+            arr[j - 1] = temp;
+            j--;
         }
     }
 
@@ -33,5 +32,6 @@ int main() {
     for(int i = 0; i < n; i++){
         cout << arr[i] << " ";
     }
+
     return 0;
 }
