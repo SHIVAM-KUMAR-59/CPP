@@ -38,7 +38,7 @@ To get started with the code in this repository, follow these steps:
    Then, run the output file:
 
    ```bash
-   ./out
+   ./a.out
    ```
 
 ## Contributing ✨
