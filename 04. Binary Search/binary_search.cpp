@@ -47,6 +47,5 @@ int main() {
     } else {
         cout << "Target not found" << endl;
     }
-
     return 0;
 }
