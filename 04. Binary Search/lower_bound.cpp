@@ -1,4 +1,4 @@
-// Lower bound is thesmallest index such that arr[index] >= x
+// Lower bound is thes mallest index such that arr[index] >= x
 
 #include <iostream>
 using namespace std;
