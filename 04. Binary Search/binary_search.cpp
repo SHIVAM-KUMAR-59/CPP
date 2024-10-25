@@ -21,10 +21,25 @@ int binary_search(int arr[], int target, int n) {
     return -1; // Target not found
 }
 
+int recursive_binary_search(int arr[], int target, int n, int low, int high){
+    if(low > high){
+        return -1;
+    }
+    int mid = low + (high - low) / 2;
+    if(arr[mid] == target){
+        return mid;
+    }
+    else if(arr[mid] > target){
+        return recursive_binary_search(arr, target, n, low, mid - 1);
+    }else{
+        return recursive_binary_search(arr, target, n, mid + 1, high);
+    }
+}
+
 int main() {
     int nums[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int target = 5;
-    int n = sizeof(nums) / sizeof(nums[0]); // Correct size calculation
+    int n = sizeof(nums) / sizeof(nums[0]);
 
     int result = binary_search(nums, target, n);
     if (result != -1) {
