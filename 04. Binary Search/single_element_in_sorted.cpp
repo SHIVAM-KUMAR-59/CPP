@@ -1,3 +1,13 @@
+// Single element in a Sorted Array
+// Time Complexity: O(log n)
+// Space Complexity: O(1)
+/*
+Approach:
+1. Find the middle element of the array.
+2. If the index of the middle element is odd and the element at mid - 1 index is equal to the element at mid index then eliminate the left half else eliminate right half
+3. If the index of the middle element is eve and the element at mid + 1 index is equal to the element at mid index then eliminate the right half else eliminate left half
+*/
+
 #include <iostream>
 using namespace std;
 
