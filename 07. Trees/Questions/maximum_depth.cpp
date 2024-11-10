@@ -34,22 +34,3 @@ public:
         return std::max(left_height, right_height) + 1;
     }
 };
-
-int main() {
-    // Example tree creation: root node with value 1, left child with value 2, right child with value 3
-    TreeNode* root = new TreeNode(1);
-    root->left = new TreeNode(2);
-    root->right = new TreeNode(3);
-
-    // Solution class instantiation and max depth calculation
-    Solution sol;
-    int depth = sol.maxDepth(root);
-    std::cout << "Maximum depth of the binary tree: " << depth << std::endl;
-
-    // Memory cleanup
-    delete root->left;
-    delete root->right;
-    delete root;
-
-    return 0;
-}
