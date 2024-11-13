@@ -1,4 +1,3 @@
-
 /*
 Given a Binary Search Tree. Your task is to complete the function which will return the kth largest element without doing any modification in the Binary Search Tree.
 */
