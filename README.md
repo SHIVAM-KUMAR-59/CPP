@@ -96,6 +96,21 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 10. Sort List                | https://leetcode.com/problems/sort-list/description/                                                                                | <span style="color: #CB9D06">Medium</span> |
 | 11. Reverse Nodes in K-Group | https://leetcode.com/problems/reverse-nodes-in-k-group/description/                                                                 | <span style="color: #DC143C">Hard</span>   |
 
+### Greedy Algorithm
+
+| Question                  | Link                                                                                                                                | Difficulty                                 |
+| ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| 1. Apple Redistribution   | https://leetcode.com/problems/apple-redistribution-into-boxes/description/                                                          | <span style="color: green">Easy</span>     |
+| 2. Assign Cookies         | https://leetcode.com/problems/assign-cookies/description/                                                                           | <span style="color: green">Easy</span>     |
+| 3. Lemonade Change        | https://leetcode.com/problems/lemonade-change/description/                                                                          | <span style="color: green">Easy</span>     |
+| 4. N-Meetings in One Room | https://www.geeksforgeeks.org/problems/n-meetings-in-one-room-1587115620/1                                                          | <span style="color: green">Easy</span>     |
+| 5. Coin Change            | https://www.geeksforgeeks.org/problems/number-of-coins1824/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card | <span style="color: #CB9D06">Medium</span> |
+| 6. Insert Interval        | https://leetcode.com/problems/insert-interval/description/                                                                          | <span style="color: #CB9D06">Medium</span> |
+| 7. Jump Game I            | https://leetcode.com/problems/jump-game/description/                                                                                | <span style="color: #CB9D06">Medium</span> |
+| 8. Jump Game II           | https://leetcode.com/problems/jump-game-ii/description/                                                                             | <span style="color: #CB9D06">Medium</span> |
+| 9. Jump Game II           | https://leetcode.com/problems/jump-game-ii/description/                                                                             | <span style="color: #CB9D06">Medium</span> |
+| 10. Candy                 | https://leetcode.com/problems/candy/description/                                                                                    | <span style="color: #DC143C">Hard</span>   |
+
 ## Getting Started
 
 To get started with the code in this repository, follow these steps:
