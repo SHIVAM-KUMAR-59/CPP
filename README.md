@@ -10,6 +10,7 @@ Welcome to the CPP DSA repository! This is a learning resource dedicated to Data
   - [Arrays](#arrays)
   - [Binary Search](#binary-search)
   - [Linked List](#linked-list)
+  - [Greedy Algorithm](#greedy-algorithm)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing-✨)
 - [Acknowledgments](#acknowledgments-👏)
