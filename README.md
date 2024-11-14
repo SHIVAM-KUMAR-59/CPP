@@ -89,11 +89,11 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 3. Find Length of Loop       | https://www.geeksforgeeks.org/problems/find-length-of-loop/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card | <span style="color: green">Easy</span>     |
 | 4. Palindrome List           | https://leetcode.com/problems/palindrome-linked-list/description/                                                                   | <span style="color: green">Easy</span>     |
 | 5. Add Two Numbers           | https://leetcode.com/problems/add-two-numbers/description/                                                                          | <span style="color: #CB9D06">Medium</span> |
-| 6. Remove Nth Node           | https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/                                                         | <span style="color: #CB9D06">Medium</      |
-| 7. Linked List Cycle II      | https://leetcode.com/problems/linked-list-cycle-ii/description/                                                                     | <span style="color: #CB9D06">Medium</      |
-| 8. Odd Even List             | https://leetcode.com/problems/odd-even-linked-list/description/                                                                     | <span style="color: #CB9D06">Medium</      |
-| 9. Rotate List               | https://leetcode.com/problems/rotate-list/description/                                                                              | <span style="color: #CB9D06">Medium</      |
-| 10. Sort List                | https://leetcode.com/problems/sort-list/description/                                                                                | <span style="color: #CB9D06">Medium</      |
+| 6. Remove Nth Node           | https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/                                                         | <span style="color: #CB9D06">Medium</span> |
+| 7. Linked List Cycle II      | https://leetcode.com/problems/linked-list-cycle-ii/description/                                                                     | <span style="color: #CB9D06">Medium</span> |
+| 8. Odd Even List             | https://leetcode.com/problems/odd-even-linked-list/description/                                                                     | <span style="color: #CB9D06">Medium</span> |
+| 9. Rotate List               | https://leetcode.com/problems/rotate-list/description/                                                                              | <span style="color: #CB9D06">Medium</span> |
+| 10. Sort List                | https://leetcode.com/problems/sort-list/description/                                                                                | <span style="color: #CB9D06">Medium</span> |
 | 11. Reverse Nodes in K-Group | https://leetcode.com/problems/reverse-nodes-in-k-group/description/                                                                 | <span style="color: #DC143C">Hard</span>   |
 
 ## Getting Started
