@@ -1,28 +1,37 @@
-# CPP DSA
+# 🌟 **C++ DSA**
 
-Welcome to the CPP DSA repository! This is a learning resource dedicated to Data Structures and Algorithms (DSA) implemented in C++. It includes a variety of examples, exercises, and projects designed to help beginners and intermediate learners enhance their understanding of DSA concepts.
+Welcome to the **C++ DSA** repository! 🎉  
+This resource is your one-stop guide to mastering **Data Structures and Algorithms (DSA)** with **C++**.
 
-## Table of Contents
+🚀 **What you'll find here:**
 
-- [About](#about)
-- [Questions](#questions)
-  - [Sorting](#sorting)
-  - [Arrays](#arrays)
-  - [Binary Search](#binary-search)
-  - [Linked List](#linked-list)
-  - [Greedy Algorithm](#greedy-algorithm)
-  - [Trees](#trees)
-- [Getting Started](#getting-started)
-- [Contributing](#contributing-✨)
-- [Acknowledgments](#acknowledgments-👏)
+- 📝 A rich collection of **examples** and **exercises**.
+- 💡 Tailored for **beginners** and **intermediate learners** looking to deepen their understanding of DSA concepts.
+- 📚 Clear and structured learning materials to make your journey enjoyable and effective!
 
-## About
+---
+
+## 📋 Table of Contents
+
+- 📖 [About](#📖-about)
+- ❓ [Questions](#❓-questions)
+  - 🔄 [Sorting](#🔄-sorting)
+  - 📊 [Arrays](#📊-arrays)
+  - 🔍 [Binary Search](#🔍-binary-search)
+  - 🔗 [Linked List](#🔗-linked-list)
+  - 💡 [Greedy Algorithm](#💡-greedy-algorithm)
+  - 🌳 [Trees](#🌳-trees)
+- 🚀 [Getting Started](#🚀-getting-started)
+- ✨[Contributing](#✨-contributing)
+- 👏 [Acknowledgments](#👏-acknowledgments)
+
+## 📖 About
 
 The CPP DSA repository is designed for anyone interested in learning about data structures and algorithms through practical implementation in C++. The repository contains clear, well-documented code examples, allowing learners to understand not only how to implement various DSA concepts but also why they are useful.
 
-## Questions
+## ❓ Questions
 
-### Sorting
+### 🔄 Sorting
 
 | Question          | Link                                                    | Difficulty                                        |
 | ----------------- | ------------------------------------------------------- | ------------------------------------------------- |
@@ -32,7 +41,7 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 4. Merge Sort     | https://www.geeksforgeeks.org/problems/merge-sort/1     | <b><span style="color: #CB9D06">Medium</span></b> |
 | 5. Quick Sort     | https://www.geeksforgeeks.org/problems/selection-sort/1 | <b><span style="color: #CB9D06">Medium</span></b> |
 
-### Arrays
+### 📊 Arrays
 
 | Question                              | Link                                                                                                                                                         | Difficulty                                        |
 | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------- |
@@ -68,7 +77,7 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 30. Subarray With Given Xor           | https://www.interviewbit.com/problems/subarray-with-given-xor/                                                                                               | <b><span style="color: #DC143C">Hard</span></b>   |
 | 31. 3Sum                              | https://leetcode.com/problems/3sum/description/                                                                                                              | <b><span style="color: #DC143C">Hard</span></b>   |
 
-### Binary Search
+### 🔍 Binary Search
 
 | Question                                                   | Link                                                                                                                                     | Difficulty                                        |
 | ---------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
@@ -82,7 +91,7 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 8. Search in Rotated Sorted Array                          | https://leetcode.com/problems/search-in-rotated-sorted-array/description/                                                                | <b><span style="color: #CB9D06">Medium</span></b> |
 | 9. Single Element in Sorted Array                          | https://leetcode.com/problems/single-element-in-a-sorted-array/description/                                                              | <b><span style="color: #CB9D06">Medium</span></b> |
 
-### Linked List
+### 🔗 Linked List
 
 | Question                     | Link                                                                                                                                | Difficulty                                        |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
@@ -98,7 +107,7 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 10. Sort List                | https://leetcode.com/problems/sort-list/description/                                                                                | <b><span style="color: #CB9D06">Medium</span></b> |
 | 11. Reverse Nodes in K-Group | https://leetcode.com/problems/reverse-nodes-in-k-group/description/                                                                 | <b><span style="color: #DC143C">Hard</span></b>   |
 
-### Greedy Algorithm
+### 💡 Greedy Algorithm
 
 | Question                  | Link                                                                                                                                | Difficulty                                        |
 | ------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- |
@@ -113,7 +122,7 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 9. Jump Game II           | https://leetcode.com/problems/jump-game-ii/description/                                                                             | <b><span style="color: #CB9D06">Medium</span></b> |
 | 10. Candy                 | https://leetcode.com/problems/candy/description/                                                                                    | <b><span style="color: #DC143C">Hard</span></b>   |
 
-### Trees
+### 🌳 Trees
 
 | Question                       | Link                                                                     | Difficulty                                        |
 | ------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------------- |
@@ -130,7 +139,7 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 10. Kth Largest Element in BST | https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/ | <b><span style="color: #CB9D06">Medium</span></b> |
 | 11. Maximum Path Sum           | https://leetcode.com/problems/binary-tree-maximum-path-sum/description/  | <b><span style="color: #DC143C">Hard</span></b>   |
 
-## Getting Started
+## 🚀 Getting Started
 
 To get started with the code in this repository, follow these steps:
 
@@ -158,7 +167,7 @@ To get started with the code in this repository, follow these steps:
    ./a.out
    ```
 
-## Contributing ✨
+## ✨ Contributing
 
 This repository is intended for personal learning, but if you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request!
 
@@ -184,6 +193,6 @@ This repository is intended for personal learning, but if you find any issues or
 
 5. Open a pull request, and I'll review your contribution!
 
-## Acknowledgments 👏
+## 👏 Acknowledgments
 
 A huge thank you to the C++ community and various online resources that have been invaluable in my learning journey!
