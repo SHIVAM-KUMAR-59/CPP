@@ -24,13 +24,13 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 
 ### Sorting
 
-| Question          | Link                                                    | Difficulty                                                                                                        |
-| ----------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| 1. Bubble Sort    | https://www.geeksforgeeks.org/problems/bubble-sort/1    | <b><span style="color: #00A36C; background-color: #E8F5E9; padding: 2px 4px; border-radius: 4px;">Easy</span></b> |
-| 2. Insertion Sort | https://www.geeksforgeeks.org/problems/insertion-sort/1 | <b><span style="color: #00A36C">Easy</span></b>                                                                   |
-| 3. Selection Sort | https://www.geeksforgeeks.org/problems/selection-sort/1 | <b><span style="color: #00A36C">Easy</span></b>                                                                   |
-| 4. Merge Sort     | https://www.geeksforgeeks.org/problems/merge-sort/1     | <b><span style="color: #CB9D06">Medium</span></b>                                                                 |
-| 5. Quick Sort     | https://www.geeksforgeeks.org/problems/selection-sort/1 | <b><span style="color: #CB9D06">Medium</span></b>                                                                 |
+| Question          | Link                                                    | Difficulty                                        |
+| ----------------- | ------------------------------------------------------- | ------------------------------------------------- |
+| 1. Bubble Sort    | https://www.geeksforgeeks.org/problems/bubble-sort/1    | <b><span style="color: #00A36C">Easy</span></b>   |
+| 2. Insertion Sort | https://www.geeksforgeeks.org/problems/insertion-sort/1 | <b><span style="color: #00A36C">Easy</span></b>   |
+| 3. Selection Sort | https://www.geeksforgeeks.org/problems/selection-sort/1 | <b><span style="color: #00A36C">Easy</span></b>   |
+| 4. Merge Sort     | https://www.geeksforgeeks.org/problems/merge-sort/1     | <b><span style="color: #CB9D06">Medium</span></b> |
+| 5. Quick Sort     | https://www.geeksforgeeks.org/problems/selection-sort/1 | <b><span style="color: #CB9D06">Medium</span></b> |
 
 ### Arrays
 
