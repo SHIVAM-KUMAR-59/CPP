@@ -41,6 +41,8 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 4. Merge Sort     | https://www.geeksforgeeks.org/problems/merge-sort/1     | <b><span style="color: #CB9D06">Medium</span></b> |
 | 5. Quick Sort     | https://www.geeksforgeeks.org/problems/selection-sort/1 | <b><span style="color: #CB9D06">Medium</span></b> |
 
+---
+
 ### 📊 Arrays
 
 | Question                              | Link                                                                                                                                                         | Difficulty                                        |
@@ -77,6 +79,8 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 30. Subarray With Given Xor           | https://www.interviewbit.com/problems/subarray-with-given-xor/                                                                                               | <b><span style="color: #DC143C">Hard</span></b>   |
 | 31. 3Sum                              | https://leetcode.com/problems/3sum/description/                                                                                                              | <b><span style="color: #DC143C">Hard</span></b>   |
 
+---
+
 ### 🔍 Binary Search
 
 | Question                                                   | Link                                                                                                                                     | Difficulty                                        |
@@ -90,6 +94,8 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 7. Number of Rotations                                     | https://www.geeksforgeeks.org/problems/rotation4723/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=practice_card             | <b><span style="color: #CB9D06">Medium</span></b> |
 | 8. Search in Rotated Sorted Array                          | https://leetcode.com/problems/search-in-rotated-sorted-array/description/                                                                | <b><span style="color: #CB9D06">Medium</span></b> |
 | 9. Single Element in Sorted Array                          | https://leetcode.com/problems/single-element-in-a-sorted-array/description/                                                              | <b><span style="color: #CB9D06">Medium</span></b> |
+
+---
 
 ### 🔗 Linked List
 
@@ -107,6 +113,8 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 10. Sort List                | https://leetcode.com/problems/sort-list/description/                                                                                | <b><span style="color: #CB9D06">Medium</span></b> |
 | 11. Reverse Nodes in K-Group | https://leetcode.com/problems/reverse-nodes-in-k-group/description/                                                                 | <b><span style="color: #DC143C">Hard</span></b>   |
 
+---
+
 ### 💡 Greedy Algorithm
 
 | Question                  | Link                                                                                                                                | Difficulty                                        |
@@ -121,6 +129,8 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 8. Jump Game II           | https://leetcode.com/problems/jump-game-ii/description/                                                                             | <b><span style="color: #CB9D06">Medium</span></b> |
 | 9. Jump Game II           | https://leetcode.com/problems/jump-game-ii/description/                                                                             | <b><span style="color: #CB9D06">Medium</span></b> |
 | 10. Candy                 | https://leetcode.com/problems/candy/description/                                                                                    | <b><span style="color: #DC143C">Hard</span></b>   |
+
+---
 
 ### 🌳 Trees
 
@@ -138,6 +148,8 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 9. Children Sum                | https://www.geeksforgeeks.org/problems/children-sum-parent/1             | <b><span style="color: #CB9D06">Medium</span></b> |
 | 10. Kth Largest Element in BST | https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/ | <b><span style="color: #CB9D06">Medium</span></b> |
 | 11. Maximum Path Sum           | https://leetcode.com/problems/binary-tree-maximum-path-sum/description/  | <b><span style="color: #DC143C">Hard</span></b>   |
+
+---
 
 ## 🚀 Getting Started
 
