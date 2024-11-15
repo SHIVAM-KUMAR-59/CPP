@@ -11,6 +11,7 @@ Welcome to the CPP DSA repository! This is a learning resource dedicated to Data
   - [Binary Search](#binary-search)
   - [Linked List](#linked-list)
   - [Greedy Algorithm](#greedy-algorithm)
+  - [Trees](#trees)
 - [Getting Started](#getting-started)
 - [Contributing](#contributing-✨)
 - [Acknowledgments](#acknowledgments-👏)
@@ -111,6 +112,23 @@ The CPP DSA repository is designed for anyone interested in learning about data 
 | 8. Jump Game II           | https://leetcode.com/problems/jump-game-ii/description/                                                                             | <span style="color: #CB9D06">Medium</span> |
 | 9. Jump Game II           | https://leetcode.com/problems/jump-game-ii/description/                                                                             | <span style="color: #CB9D06">Medium</span> |
 | 10. Candy                 | https://leetcode.com/problems/candy/description/                                                                                    | <span style="color: #DC143C">Hard</span>   |
+
+### Trees
+
+| Question                       | Link                                                                     | Difficulty                                 |
+| ------------------------------ | ------------------------------------------------------------------------ | ------------------------------------------ |
+| 1. Count Complete Tree Nodes   | https://leetcode.com/problems/count-complete-tree-nodes/description/     | <span style="color: green">Easy</span>     |
+| 2. Count Non Leaf Nodes        | https://www.geeksforgeeks.org/problems/count-non-leaf-nodes-in-tree/0    | <span style="color: green">Easy</span>     |
+| 3. Maximum Depth               | https://leetcode.com/problems/maximum-depth-of-binary-tree/description/  | <span style="color: green">Easy</span>     |
+| 4. Diameter of Tree            | https://leetcode.com/problems/diameter-of-binary-tree/description/       | <span style="color: green">Easy</span>     |
+| 5. Path Sum                    | https://leetcode.com/problems/path-sum/description/                      | <span style="color: green">Easy</span>     |
+| 6. Invert Binary Tree          | https://leetcode.com/problems/invert-binary-tree/description/            | <span style="color: green">Easy</span>     |
+| 7. Same Tree                   | https://leetcode.com/problems/same-tree/description/                     | <span style="color: green">Easy</span>     |
+| 8. Symmetric Tree              | https://leetcode.com/problems/symmetric-tree/description/                | <span style="color: green">Easy</span>     |
+| 8. Two Mirror Trees            | https://www.geeksforgeeks.org/problems/two-mirror-trees/1                | <span style="color: green">Easy</span>     |
+| 9. Children Sum                | https://www.geeksforgeeks.org/problems/children-sum-parent/1             | <span style="color: #CB9D06">Medium</span> |
+| 10. Kth Largest Element in BST | https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/ | <span style="color: #CB9D06">Medium</span> |
+| 11. Maximum Path Sum           | https://leetcode.com/problems/binary-tree-maximum-path-sum/description/  | <span style="color: #DC143C">Hard</span>   |
 
 ## Getting Started
 
