@@ -11,8 +11,7 @@ struct Node{
 
 class Solution {
 public:
-    // Function to check whether all nodes of a tree have the value
-    // equal to the sum of their child nodes.
+    // Function to check whether all nodes of a tree have the value equal to the sum of their child nodes.
     int isSumProperty(Node *root) {
         // If the node is null or a leaf node, it satisfies the property
         if (root == nullptr || (root->left == nullptr && root->right == nullptr)) {
