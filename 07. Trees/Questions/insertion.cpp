@@ -11,7 +11,7 @@ struct node {
 
 // Function to create a new node with a given value
 struct node *createNode(int val) {
-    // Allocate memory for the new node
+    // Allocate memory for the new node 
     struct node *newNode = (struct node *) malloc(sizeof(struct node));
     
     // Check if memory allocation was successful
