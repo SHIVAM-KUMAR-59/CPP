@@ -9,7 +9,7 @@ NOTE: The adjacency list represents undirected edges, meaning that if there is a
 #include <queue>
 using namespace std;
 
-// TC: O(V + E), SC: O(V + E)
+// TC: O(N + 2E), SC: O(N)
 
 class Solution {
 private:
