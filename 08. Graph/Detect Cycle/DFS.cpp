@@ -8,6 +8,8 @@ NOTE: The adjacency list represents undirected edges, meaning that if there is a
 #include <vector>
 using namespace std;
 
+// TC: O(N + 2E), SC: O(N)
+
 class Solution {
 private:
     // Function to detect a cycle in the graph using DFS
