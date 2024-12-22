@@ -208,3 +208,36 @@ This repository is intended for personal learning, but if you find any issues or
 ## 👏 Acknowledgments
 
 A huge thank you to the C++ community and various online resources that have been invaluable in my learning journey!
+
+```bash
+├── config
+│ ├── jwtConfig.js
+│ ├── dbConfig.js
+├── controllers
+│ ├── user # This will have all user controller like update, delete and stuff
+│ ├── auth # This will have all authentication related controller like login, signup
+├── middlewares
+│ ├── auth # All the authentication related middlewares like generating token, verifying token, etc.
+│ ├── user # All the user related middleware such as finding a user and stuff
+├── models
+│ ├── OtpSchema.js
+│ ├── UserSchema.js
+├── routes
+│ ├── auth # Login and signup
+│ │ ├── login.js
+│ │ ├── signup.js
+│ ├── user
+│ │ ├── update.js
+│ │ ├── delete.js
+├── passport
+│ ├── jwtStrategy.js
+│ ├── googleStratergy.js # If we want to integrate OAuth in future
+├── utils # This will have all the utils such as logger.js, errorHandler.js etc
+├── .env
+├── .gitignore
+├── README.md
+├── index.js # Combined both app.js and server.js
+├── package-lock.json
+├── package.json
+
+```
