@@ -115,8 +115,8 @@ Contributions are always welcome! If you have any suggestions for additional pro
 ## **Author**
 
 - **Shivam Kumar**
-- LinkedIn: [Shivam Kumar](https://linkedin.com/in/shivam-kumar)
-- GitHub: [Shivam Kumar](https://github.com/your-github-profile)
+- LinkedIn: [Shivam Kumar](https://www.linkedin.com/in/shivam-kumar-946614277/)
+- GitHub: [Shivam Kumar](https://github.com/SHIVAM-KUMAR-59)
 
 ---
 
