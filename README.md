@@ -1,4 +1,4 @@
-# JAVA-DSA: Your Complete Guide to Mastering Data Structures and Algorithms with C++
+# JAVA-DSA: Your Complete Guide to Mastering Data Structures and Algorithms with JAVA
 
 Welcome to the **JAVA-DSA repository**! This repository is designed to systematically teach and practice Data Structures and Algorithms (DSA) using **JAVA**, one of the most powerful languages for competitive programming and problem-solving.
 
